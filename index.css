@@ -1,0 +1,147 @@
+
+div.menu_top1 {
+    background-color: #444;
+    display: inline-block;
+    height: 65px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+ul.menu_top1_left {
+    font-size: 150%;
+    left: 5%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 480px;
+}
+ul.menu_top1_right {
+    font-size: 130%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+}
+li.menu_top1 {
+    background-color: #444;
+    color: white;
+    display: inline;
+    float: left;
+    height: 40px;
+    padding: 5px 15px;
+    position: relative;
+    top: 10px;
+}
+a.menu_top1 {
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+}
+img.menu_top1 {
+    height: 40px;
+    width: 90px;
+}
+body.waiting * {
+    cursor: wait;
+}
+div.menu_top2 {
+    background-color: #999;
+    display: inline-block;
+    height: 36px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 65px;
+    width: 100%;
+    z-index: 5;
+}
+ul.menu_top2 {
+    font-size: 130%;
+    left: 5%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+li.menu_top2 {
+    background-color: #999;
+    border-radius: 8px 8px 0 0;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    display: inline;
+    float: left;
+    height: 25px;
+    padding: 5px 15px;
+    position: relative;
+    top: 0;
+}
+#active_li {
+    background-color: white;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+    border-top: 1px solid #777;
+    display: inline;
+    float: left;
+    font-weight: bold;
+    height: 25px;
+    padding: 5px 15px;
+    position: relative;
+    top: 0;
+}
+ul li a.menu_top2 {
+    color: black;
+    font-size: 100%;
+    text-decoration: none;
+}
+label.menu_top2 {
+    background-color: #999;
+    color: black;
+    display: inline;
+    float: right;
+    padding: 5px 15px;
+    position: relative;
+    top: 0;
+}
+div.menu_top3 {
+    display: inline-block;
+    height: 55px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 107px;
+    width: 100%;
+    z-index: 3;
+}
+div.main_page {
+    bottom: 45px;
+    display: inline-block;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 165px;
+    width: 100%;
+    z-index: 3;
+}
+.inline_table {
+    border-spacing: 1px;
+    display: inline-block;
+    margin: 0 10px;
+    outline-style: solid;
+    outline-width: 2px;
+    padding: 0;
+    position: relative;
+}
+td, th {
+    border: thin solid black;
+}
